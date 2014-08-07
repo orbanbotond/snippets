@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+specify '${1:verb}s ${2:...}' do
+  ${3:}
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>specd</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby.rspec</scope>
+</snippet>

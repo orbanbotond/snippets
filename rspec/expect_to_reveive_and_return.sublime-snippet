@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[expect(${1:this}).to receive(${2:message})${3:.and_return(${4:value})}]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>exprec</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby.rspec</scope>
+</snippet>

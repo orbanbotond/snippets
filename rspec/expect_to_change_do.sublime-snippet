@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[expect do
+  ${1:term}
+end.to change{${2:term2}}${4:.by(${5:value})}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>expchd</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby.rspec</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[ expect_any_instance_of(${1:Class}).to receive(:${2:method})${3:.and_return(${4:object})}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>expany</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby.rspec</scope>
+</snippet>
